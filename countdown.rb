@@ -10,4 +10,4 @@ while Time.now < time_end
     print "#{go_beginning_of_line}Counting down #{more.round(1)} of #{n} seconds#{clear_till_end_of_line}"
     sleep [0.1, more].min
 end
-puts "  \a\aDone"
+puts "#{go_beginning_of_line}Counting down #{n} seconds. \a\aDone.#{clear_till_end_of_line}"
