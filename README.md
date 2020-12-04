@@ -1,1 +1,3 @@
-# Count-Down-Timer-Using-Ruby
+# Countdown-Timer-Using-Ruby
+
+    usage: ruby countdown.rb <number_of_seconds>
