@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 n = ARGV[0].to_f
-go_beginning_of_line = "\033[E"
+go_beginning_of_line = "\033[G"
 clear_till_end_of_line = "\033[K"
 
 time_end = Time.now + n
